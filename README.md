@@ -22,6 +22,7 @@ The toolkit supports rapid exploration and reproducible extraction of satellite 
 ├── Toolbox.ipynb # Utilities and helper functions
 ├── dln_GREALM.ipynb # Main notebook: download, extract, and structure data
 ├── README.md # Project documentation (this file)
+├── Cardiel.png
 └── .gitattributes # Git configuration attributes
 ``` 
 <br>
@@ -75,3 +76,12 @@ And stores them as a list of dictionaries (one per lake) in a pickle file (lake_
 Below is an example time series plot for one lake (Cardiel):
 
 ![Example Time Series Plot](Cardiel.png)
+
+
+Data Source
+All data are publicly available from the G-REALM database:
+
+. USDA-FAS G-REALM
+
+. Data are based on satellite radar altimetry, with multiple corrections (datum conversion, atmospheric corrections, etc.).
+
