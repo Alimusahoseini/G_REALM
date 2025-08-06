@@ -14,10 +14,17 @@ This repository provides scripts to:
 The toolkit supports rapid exploration and reproducible extraction of satellite altimetry data for global lakes, suitable for hydrological research and scientific publications.
 
 ---
+<br>
 
 ## Project Structure
+
 .
 ├── Toolbox.ipynb # Utilities and helper functions
 ├── dln_GREALM.ipynb # Main notebook: download, extract, and structure data
 ├── README.md # Project documentation (this file)
 └── .gitattributes # Git configuration attributes
+
+<br>
+
+
+
