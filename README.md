@@ -16,4 +16,8 @@ The toolkit supports rapid exploration and reproducible extraction of satellite 
 ---
 
 ## Project Structure
-
+.
+├── Toolbox.ipynb # Utilities and helper functions
+├── dln_GREALM.ipynb # Main notebook: download, extract, structure
+├── README.md # This file
+└── .gitattributes
