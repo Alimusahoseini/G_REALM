@@ -45,7 +45,7 @@ You can install the requirements via:
 
 ```bash
 pip install pandas matplotlib requests
-
+``` 
 Usage
 1. Download & Extract G-REALM Data
 Run the provided code (in notebook or as a Python script). You will be prompted to select the desired temporal resolution (e.g., 10-Day, 35-Day, etc.), and the script will automatically download and extract the files.
