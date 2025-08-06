@@ -78,10 +78,16 @@ Below is an example time series plot for one lake (Cardiel):
 ![Example Time Series Plot](Cardiel.png)
 
 
-Data Source
+## Data Source
 All data are publicly available from the G-REALM database:
 
-. USDA-FAS G-REALM
+- USDA-FAS G-REALM
 
-. Data are based on satellite radar altimetry, with multiple corrections (datum conversion, atmospheric corrections, etc.).
+- Data are based on satellite radar altimetry, with multiple corrections (datum conversion, atmospheric corrections, etc.).
 
+## Citing
+If you use this toolbox or data in your research, please cite:
+
+This study analyzes global changes in lake water levels using the G-REALM database, which is derived from satellite radar altimetry measurements. The data are publicly available through the US Department of Agriculture Foreign Agricultural Service (USDA-FAS), in collaboration with NASA, CNES, ESA, and other space agencies.
+
+G-REALM Database: https://ipad.fas.usda.gov/cropexplorer/global_reservoir/
