@@ -51,8 +51,6 @@ Usage
 Run the provided code (in notebook or as a Python script). You will be prompted to select the desired temporal resolution (e.g., 10-Day, 35-Day, etc.), and the script will automatically download and extract the files.
 , etc.)
 
-# Example: Download and extract 35-Day data
-# (Run inside dln_GREALM.ipynb)
 The script will:
 
 Download the .tar.gz archive for the selected period
@@ -61,7 +59,7 @@ Extract all lake .txt files into a folder (e.g., lake_data_35Day)
 
 Parse metadata and water level records for each lake
 
-2. Structure the Data
+## 2. Structure the Data
 The notebook extracts:
 
 Lake ID, name, coordinates
@@ -71,3 +69,9 @@ Metadata (satellite, pass, cycle, etc.)
 Water level time series (with corrected heights)
 
 And stores them as a list of dictionaries (one per lake) in a pickle file (lake_struct_data.pkl) for easy loading.
+
+## 3. Visualize Example
+
+Below is an example time series plot for one lake (Cardiel):
+
+![Example Time Series Plot](Cardiel.png)
