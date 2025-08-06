@@ -27,4 +27,23 @@ The toolkit supports rapid exploration and reproducible extraction of satellite 
 <br>
 
 
+- `Toolbox.ipynb`: Contains utility functions for analysis and visualization.
+- `dln_GREALM.ipynb`: Main pipeline: data download, extraction, and structuring.
+- `lake_struct_data.pkl`: Output file — structured lake metadata and timeseries (created after running the pipeline).
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Python 3.7+
+- Required packages:  
+  `pandas`, `matplotlib`, `requests`
+
+You can install the requirements via:
+
+```bash
+pip install pandas matplotlib requests
+
 
