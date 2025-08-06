@@ -7,7 +7,7 @@ A Python toolkit for **downloading, extracting, and structuring global lake wate
 ## Overview
 
 This repository provides scripts to:
-- **Download** lake water level time series from the G-REALM database (multiple temporal resolutions available).
+- **Download** lake water level time series from the G-REALM database (multiple sampling rates).
 - **Extract** and **structure** the raw data into an analysis-ready format.
 - **Visualize** the time series for each lake.
 
