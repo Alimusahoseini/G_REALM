@@ -31,3 +31,48 @@ All scripts are ready for use with the G-REALM public dataset maintained by USDA
 
 ## Folder Structure
 
+.
+├── Download_GREAL.py      # Script to download and extract G-REALM data
+├── toolbox.py             # Toolbox: parse, structure, visualize data
+└── README.md
+## Requirements
+
+- Python 3.7 or higher
+- pandas
+- matplotlib
+- requests
+
+Install all dependencies using:
+
+```bash
+pip install pandas matplotlib requests
+## Usage
+
+### 1. Download G-REALM Data
+
+Use `Download_GREAL.py` to download and extract lake data files for your desired period (10-Day, 27A-Day, 27B-Day, 35-Day):
+
+```bash
+python Download_GREAL.py
+
+Follow the prompts to select your preferred data frequency.
+The script downloads and extracts the relevant .tar.gz file, and prints the list of available text files.
+
+2. Parse and Visualize Lake Data
+Use toolbox.py to parse all extracted .txt files, extract metadata and time series, and save the structured data as a .pkl file.
+
+You can also plot the water level time series for any lake.
+
+Data Description
+Each lake file provides:
+
+Metadata: Name, ID, latitude, longitude, track
+
+Water level series: Dates, observed heights, reference corrections (EGM2008), satellite info, error and correction parameters, quality flags
+
+Source:
+G-REALM (Global Reservoir and Lake Monitor) Database
+
+Acknowledgments & Citation
+If you use these scripts or G-REALM data in your research, please cite the G-REALM project and acknowledge the USDA-FAS, NASA, CNES, ESA, and all contributing agencies.
+
