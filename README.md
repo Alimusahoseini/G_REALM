@@ -75,7 +75,7 @@ And stores them as a list of dictionaries (one per lake) in a pickle file (lake_
 
 Below is an example time series plot for one lake (Cardiel):
 
-![Example Time Series Plot](Cardiel.png)
+![Example Time Series Plot](lake_Cardiel_satellite_timeseries.png)
 
 
 ## Data Source
